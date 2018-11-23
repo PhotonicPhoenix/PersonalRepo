@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{111A3169-BCB9-4A29-B583-6F8F64C50FF5}</ProjectGuid>
+    <ProjectGuid>{7432B3A2-9057-4231-99AE-E7A83217BE0A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>InputWindow</RootNamespace>
     <AssemblyName>InputWindow</AssemblyName>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="VoiceGeneratorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="VoiceGeneratorForm.Designer.cs">
+      <DependentUpon>VoiceGeneratorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="VoiceGeneratorForm.resx">
+      <DependentUpon>VoiceGeneratorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
